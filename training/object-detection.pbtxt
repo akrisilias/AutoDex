@@ -1,0 +1,160 @@
+item {
+    id: 1
+    name: 'Toyota'
+}
+item {
+    id: 2
+    name: 'Opel'
+}
+item {
+    id: 3
+    name: 'Volkswagen'
+}
+item {
+    id: 4
+    name: 'Ford'
+}
+item {
+    id: 5
+    name: 'Fiat'
+}
+item {
+    id: 6
+    name: 'Nissan'
+}
+item {
+    id: 7
+    name: 'Hyundai'
+}
+item {
+    id: 8
+    name: 'Skoda'
+}
+item {
+    id: 9
+    name: 'Citroen'
+}
+item {
+    id: 10
+    name: 'Peugeot'
+}
+item {
+    id: 11
+    name: 'Suzuki'
+}
+item {
+    id: 12
+    name: 'Seat'
+}
+item {
+    id: 13
+    name: 'Audi'
+}
+item {
+    id: 14
+    name: 'Renault'
+}
+item {
+    id: 15
+    name: 'Mercedes'
+}
+item {
+    id: 16
+    name: 'Kia'
+}
+item {
+    id: 17
+    name: 'BMW'
+}
+item {
+    id: 18
+    name: 'Dacia'
+}
+item {
+    id: 19
+    name: 'Volvo'
+}
+item {
+    id: 20
+    name: 'Mini'
+}
+item {
+    id: 21
+    name: 'Honda'
+}
+item {
+    id: 22
+    name: 'Mitsubishi'
+}
+item {
+    id: 23
+    name: 'Smart'
+}
+item {
+    id: 24
+    name: 'Chrysler'
+}
+item {
+    id: 25
+    name: 'Alfa Romeo'
+}
+item {
+    id: 26
+    name: 'Land Rover'
+}
+item {
+    id: 27
+    name: 'Jaguar'
+}
+item {
+    id: 28
+    name: 'Mazda'
+}
+item {
+    id: 29
+    name: 'Lexus'
+}
+item {
+    id: 30
+    name: 'Porsche'
+}
+item {
+    id: 31
+    name: 'Subaru'
+}
+item {
+    id: 32
+    name: 'Ssangyong'
+}
+item {
+    id: 33
+    name: 'Abarth'
+}
+item {
+    id: 34
+    name: 'Maserati'
+}
+item {
+    id: 35
+    name: 'Tesla'
+}
+item {
+    id: 36
+    name: 'Bentley'
+}
+item {
+    id: 37
+    name: 'Chevrolet'
+}
+item {
+    id: 38
+    name: 'Aston Martin'
+}
+item {
+    id: 39
+    name: 'Lancia'
+}
+item {
+    id: 40
+    name: 'Daihatsu'
+}
