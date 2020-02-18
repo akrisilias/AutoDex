@@ -5,7 +5,7 @@ camera input. The model is based on the TensorFlow Object Detection API.
 *Only some code for the dataset creation is provided here.*
 
 ## Demo
-<img src="https://s5.gifyu.com/images/demo_small.gif"/>  
+<img src="https://s5.gifyu.com/images/demo_res70.gif"/>  
 
 ## Usage
 bla bla
