@@ -21,12 +21,10 @@ Split the data into train and test directories inside *some_dir/images*.
 ```
 python3 train_test_split.py --image_dir=some_dir/images --train_percentage=0.8
 ```
-After running the above steps for each car brand, bring the datasets to TFRecord format.
+After running the above steps for each car brand, bring the dataset to csv format.
 ```
 python3 xml_to_csv.py --in_dir=some_dir/images/train --out_dir=some_dir/csv --out_fname=train_labels.csv
 python3 xml_to_csv.py --in_dir=some_dir/images/test --out_dir=some_dir/csv --out_fname=test_labels.csv
-python3 generate_tfrecord.py --csv_input=./data/csv/train_labels.csv  --output_path=some_dir/tfrecords/train.record --image_dir=some_dir/images/train
-python3 generate_tfrecord.py --csv_input=some_dir/csv/test_labels.csv  --output_path=some_dir/tfrecords/test.record --image_dir=some_dir/images/test
 ```
-Now what's left is to pick a model, train it using the [TensorFlow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection) and then integrate by editing some example from [here](https://github.com/tensorflow/examples/tree/master/lite/examples/object_detection).  
+Now what's left is to bring the dataset to TFRecord format, pick a model, train it using the [TensorFlow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection) and then integrate by editing some example from [here](https://github.com/tensorflow/examples/tree/master/lite/examples/object_detection).  
 [Here](https://towardsdatascience.com/detecting-pikachu-on-android-using-tensorflow-object-detection-15464c7a60cd)'s an excellent blogpost explaining all this.
