@@ -9,6 +9,7 @@ camera input. The model is a Single Shot MultiBox Detector using MobileNetV2 as 
 
 ## Usage
 Download a set of images for a given car brand.  
+*Currently undergoing issue [#280](https://github.com/hardikvasa/google-images-download/issues/280) [#298](https://github.com/hardikvasa/google-images-download/pull/298)*
 ```
 python3 download_images.py --dir=some_dir/images --query=BMW --n_images=100 --format=jpg
 ```
