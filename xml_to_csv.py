@@ -63,6 +63,8 @@ def main():
 
     image_path = os.path.join(os.getcwd(), in_dir)
     xml_df = xml_to_csv(image_path)
+    if not os.path.exists(out_dir):
+        os.makedirs(out_dir)
     xml_df.to_csv(out_dir + '/' + out_fname, index=None)
     print('Successfully converted xml to csv.')
 
