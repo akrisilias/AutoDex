@@ -5,7 +5,7 @@ camera input. The model is a Single Shot MultiBox Detector using MobileNetV2 as 
 *Only some code for the dataset creation is provided here.*
 
 ## Demo
-<img src="https://s5.gifyu.com/images/demo_res70.gif"/>  
+<img src="https://s5.gifyu.com/images/demo_cropped69cd0d234cb2b9a0.gif"/>  
 
 ## Usage
 Download a set of images for a given car brand.  
