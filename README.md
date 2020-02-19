@@ -19,7 +19,7 @@ python3 .../labelImg/labelImg.py
 ```
 Split the data into train and test directories inside *some_dir/images*.  
 ```
-python3 train_test_split.py --img_dir=some_dir/images --train_percentage=0.8
+python3 train_test_split.py --image_dir=some_dir/images --train_percentage=0.8
 ```
 After running the above steps for each car brand, bring the datasets to TFRecord format.
 ```
