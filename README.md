@@ -1,6 +1,6 @@
 # AutoDex
 Android app able to detect and recognize 40 of the most popular car emblems in real time through the
-camera input. The model is a Single Shot MultiBox Detector using MobileNetV2 as the feature extractor.  
+camera input. The model is a Single Shot MultiBox Detector using MobileNet as the feature extractor.  
   
 *Only some code for the dataset creation is provided here.*
 
